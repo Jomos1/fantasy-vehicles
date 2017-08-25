@@ -1,11 +1,11 @@
-class vehicle {
+class Vehicle {
 	constructor(make, color, type){
-		this.make = make;
-		this.color = color;
-		this.type = type;
+		this.make = 'audi';
+		this.color = 'hot pink';
+		this.type = 'idk';
 	}
 
-	fantasyVehicle {
+	vehicleDetails(){
 		return `${this.make} ${this.color} ${this.type}`
 	}
-} lpo
+} console.log(Vehicle);
