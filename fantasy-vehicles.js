@@ -8,4 +8,4 @@ class vehicle {
 	fantasyVehicle {
 		return `${this.make} ${this.color} ${this.type}`
 	}
-}
+} lpo
