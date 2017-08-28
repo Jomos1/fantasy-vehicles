@@ -1,11 +1,15 @@
 class Vehicle {
 	constructor(make, color, type){
-		this.make = 'audi';
-		this.color = 'hot pink';
-		this.type = 'idk';
+		this.make = make;
+		this.color = color;
+		this.type = type;
 	}
 
-	vehicleDetails(){
-		return `${this.make} ${this.color} ${this.type}`
+	get vehicleDetails(){
+		return `Your Vehicle is made by ${this.make}, and is ${this.color}, and least importantly it's a ${this.type}`	
 	}
-} console.log(Vehicle);
+	set vehicleColor(color){
+		this.color;
+	}
+} 
+console.log(Vehicle.vehicle);
